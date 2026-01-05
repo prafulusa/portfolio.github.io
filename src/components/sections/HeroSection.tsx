@@ -44,7 +44,7 @@ export function HeroSection() {
           >
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
             <span className="text-sm text-lunar/70 font-body">
-              Open to new opportunities
+              Open to new opportunities : Available for full-time roles starting January 2026
             </span>
           </motion.div>
 
@@ -84,7 +84,7 @@ export function HeroSection() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1, duration: 0.8 }}
           >
-            {['Meta', 'Stripe', 'Airbnb', 'Stanford'].map((company) => (
+            {['Meta', 'Stripe', 'Airbnb', 'NIT'].map((company) => (
               <span
                 key={company}
                 className="px-3 py-1 text-sm font-body text-lunar/60 glass rounded-full"

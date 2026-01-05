@@ -1,7 +1,7 @@
 import type { ResumeData } from '../types'
 
 export const resumeData: ResumeData = {
-  name: "Alex Chen",
+  name: "Sai Praful",
   title: "Senior Software Engineer",
   tagline: "Building the future, one line of code at a time",
   taglines: [
@@ -13,7 +13,7 @@ export const resumeData: ResumeData = {
   ],
   about: `I'm a software engineer with 6+ years of experience building products used by millions. Currently at Meta, I lead frontend architecture for Instagram's creator monetization platform, helping content creators turn their passion into sustainable careers.
 
-My journey started at UC Berkeley, where I fell in love with the intersection of technology and human experience. Since then, I've had the privilege of working at companies like Stripe and Airbnb, where I learned that great software isn't just about clean code - it's about understanding people.
+My journey started at NIT Warangal, where I fell in love with the intersection of technology and human experience. Since then, I've had the privilege of working at companies like Stripe and Airbnb, where I learned that great software isn't just about clean code - it's about understanding people.
 
 I'm particularly passionate about performance optimization, developer experience, and making technology accessible to everyone. When I'm not shipping features, you'll find me contributing to React's ecosystem, speaking at conferences, or mentoring the next generation of engineers.
 
@@ -23,7 +23,7 @@ I believe in writing code that tells a story, building teams that lift each othe
     {
       company: "Meta",
       role: "Senior Software Engineer",
-      period: "Jan 2022 - Present",
+      period: "Jul 2024 - Present",
       description: "Leading frontend architecture for Instagram's creator monetization platform. Building tools that help 2M+ content creators earn a living doing what they love.",
       highlights: [
         "Architected real-time analytics dashboard processing 50M+ events/day, reducing p99 latency from 3s to 200ms",
@@ -36,7 +36,7 @@ I believe in writing code that tells a story, building teams that lift each othe
     {
       company: "Stripe",
       role: "Software Engineer",
-      period: "Jun 2020 - Dec 2021",
+      period: "Jul 2022 - Jul 2024",
       description: "Built payment infrastructure powering $640B+ in annual transaction volume. Focused on fraud prevention and API reliability.",
       highlights: [
         "Developed ML-powered fraud detection system reducing chargebacks by 35%, saving $12M annually",
@@ -49,7 +49,7 @@ I believe in writing code that tells a story, building teams that lift each othe
     {
       company: "Airbnb",
       role: "Software Engineer",
-      period: "Jul 2018 - May 2020",
+      period: "Jul 2018 - Jun 2020",
       description: "Member of Host Experience team, building tools used by 4M+ hosts worldwide to manage their listings and optimize their business.",
       highlights: [
         "Built responsive calendar component handling 1M+ daily interactions with 60fps animations",
@@ -74,28 +74,28 @@ I believe in writing code that tells a story, building teams that lift each othe
 
   education: [
     {
-      institution: "Stanford University",
+      institution: "Arizona State University",
       degree: "M.S. Computer Science",
-      period: "2016 - 2018",
+      period: "2022 - 2024",
       gpa: "3.92/4.0",
       highlights: [
         "Concentration in Human-Computer Interaction",
         "Teaching Assistant for CS 147: Introduction to HCI (2 quarters)",
         "Research on accessible interface design published in CHI 2018",
-        "Member of Stanford AI Lab working on NLP accessibility tools",
+        "Member of ASU AI Lab working on NLP accessibility tools",
         "Graduate Fellowship recipient"
       ]
     },
     {
-      institution: "UC Berkeley",
-      degree: "B.S. Electrical Engineering & Computer Science",
-      period: "2012 - 2016",
+      institution: "NIT Warangal",
+      degree: "B.Tech Computer Science & Engineering",
+      period: "2014 - 2018",
       gpa: "3.85/4.0",
       highlights: [
         "Dean's Honor List (all semesters)",
         "President of ACM student chapter (200+ members)",
         "1st Place, CalHacks 2015 (2,000+ participants)",
-        "Undergraduate Research Assistant in Berkeley AI Research (BAIR)",
+        "Undergraduate Research Assistant in NITW AI Research Group",
         "Tau Beta Pi Engineering Honor Society"
       ]
     }
@@ -106,42 +106,42 @@ I believe in writing code that tells a story, building teams that lift each othe
       title: "ReactFlow Pro",
       description: "Open-source library for building node-based editors and interactive diagrams. Used by teams at Stripe, Vercel, and Notion for workflow builders and data pipelines.",
       technologies: ["TypeScript", "React", "D3.js", "WebGL", "Zustand"],
-      link: "https://github.com/alexchen/reactflow-pro",
+      link: "https://github.com/saipraful/reactflow-pro",
       metrics: "12K+ GitHub stars, 500K+ weekly downloads"
     },
     {
       title: "Lighthouse AI",
       description: "AI-powered code review assistant that analyzes PRs for performance, security, and accessibility issues. Integrates with GitHub Actions for automated feedback.",
       technologies: ["Python", "GPT-4", "FastAPI", "Redis", "Docker"],
-      link: "https://github.com/alexchen/lighthouse-ai",
+      link: "https://github.com/saipraful/lighthouse-ai",
       metrics: "Used by 50+ teams, 100K+ PRs analyzed"
     },
     {
       title: "Pulse Analytics",
       description: "Real-time analytics dashboard for developer productivity. Tracks PR velocity, code review times, and deployment frequency with actionable insights.",
       technologies: ["Next.js", "PostgreSQL", "GraphQL", "Recharts", "Vercel"],
-      link: "https://github.com/alexchen/pulse-analytics",
+      link: "https://github.com/saipraful/pulse-analytics",
       metrics: "2K+ active users, 4.8/5 rating"
     },
     {
       title: "TypeSafe Forms",
       description: "End-to-end type-safe form library for React with built-in validation, accessibility, and performance optimizations. Zero runtime overhead.",
       technologies: ["TypeScript", "React", "Zod", "React Hook Form"],
-      link: "https://github.com/alexchen/typesafe-forms",
+      link: "https://github.com/saipraful/typesafe-forms",
       metrics: "8K+ stars, adopted by 3 YC companies"
     },
     {
       title: "CloudSync Desktop",
       description: "Cross-platform file synchronization app with end-to-end encryption. Built with Rust for performance and security.",
       technologies: ["Rust", "Tauri", "React", "SQLite", "WebRTC"],
-      link: "https://github.com/alexchen/cloudsync",
+      link: "https://github.com/saipraful/cloudsync",
       metrics: "50K+ downloads, featured in Rust Weekly"
     },
     {
       title: "A11y Checker",
       description: "Browser extension and CLI tool for automated accessibility auditing. Provides actionable fixes with code examples.",
       technologies: ["JavaScript", "Chrome Extensions API", "Node.js", "Axe-core"],
-      link: "https://github.com/alexchen/a11y-checker",
+      link: "https://github.com/saipraful/a11y-checker",
       metrics: "20K+ Chrome users, 4.9/5 rating"
     }
   ],
@@ -209,28 +209,28 @@ I believe in writing code that tells a story, building teams that lift each othe
       name: "Sarah Mitchell",
       role: "Engineering Manager",
       company: "Meta",
-      text: "Alex is one of the most impactful engineers I've managed. Their ability to break down complex problems and build consensus across teams is exceptional. They don't just ship features - they elevate everyone around them.",
+      text: "Sai is one of the most impactful engineers I've managed. Their ability to break down complex problems and build consensus across teams is exceptional. They don't just ship features - they elevate everyone around them.",
       image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
       name: "David Park",
       role: "Staff Engineer",
       company: "Stripe",
-      text: "Working with Alex on the fraud detection system was a masterclass in engineering excellence. Their attention to detail and commitment to code quality set a new standard for our team.",
+      text: "Working with Sai on the fraud detection system was a masterclass in engineering excellence. Their attention to detail and commitment to code quality set a new standard for our team.",
       image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
       name: "Emily Rodriguez",
       role: "Product Manager",
       company: "Airbnb",
-      text: "Alex has a rare combination of technical depth and product intuition. They consistently pushed back on requirements that wouldn't serve users well, and proposed better alternatives.",
+      text: "Sai has a rare combination of technical depth and product intuition. They consistently pushed back on requirements that wouldn't serve users well, and proposed better alternatives.",
       image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
       name: "Michael Thompson",
       role: "CTO",
       company: "TechStartup (YC S21)",
-      text: "We hired Alex as an advisor after using their open source library. Their guidance helped us scale from 10K to 1M users without rewriting our frontend. Worth every penny.",
+      text: "We hired Sai as an advisor after using their open source library. Their guidance helped us scale from 10K to 1M users without rewriting our frontend. Worth every penny.",
       image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=150"
     }
   ],
@@ -257,12 +257,12 @@ I believe in writing code that tells a story, building teams that lift each othe
   ],
 
   contact: {
-    email: "alex.chen@email.com",
-    linkedin: "linkedin.com/in/alexchen-dev",
-    github: "github.com/alexchen",
-    twitter: "twitter.com/alexchen_dev",
+    email: "sai.praful@email.com",
+    linkedin: "linkedin.com/in/saipraful-dev",
+    github: "github.com/saipraful",
+    twitter: "twitter.com/saipraful_dev",
     location: "San Francisco, CA",
-    calendly: "calendly.com/alexchen"
+    calendly: "calendly.com/saipraful"
   },
 
   stats: {
